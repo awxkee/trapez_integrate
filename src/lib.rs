@@ -72,7 +72,7 @@ pub fn trapezoid_f64(y: &[f64], x: &[f64]) -> f64 {
 ///
 /// # Returns
 /// The approximate definite integral (area under the curve).
-pub fn trapezoid_f32(y: &[f64], x: &[f64]) -> f64 {
+pub fn trapezoid_f32(y: &[f32], x: &[f32]) -> f32 {
     trapezoid(y, x)
 }
 
